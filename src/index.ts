@@ -1,1 +1,3 @@
-export { default as Foo } from './Foo';
+import Toast from './Toast/index.jsx';
+import Foo from './Foo';
+export { Toast, Foo };
